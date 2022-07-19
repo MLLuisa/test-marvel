@@ -1,0 +1,23 @@
+.main {
+    height: 90vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image:hover {
+    transform: translate3d();
+}
+
+.button {
+    border: none;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.change-styles-click {
+    animation: bounce;
+    animation-duration: 3s;
+}
