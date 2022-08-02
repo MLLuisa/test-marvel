@@ -1,5 +1,6 @@
 .header {
     width: 50vh;
+    height: 190px;
 }
 
 .header-title {
@@ -9,15 +10,22 @@
     width: 390px;
 }
 
-.iron-man-image {
+.image {
     width: 50px;
     height: 50px;
 }
 
-.iron-man-div {
+.list-characters {
+    display: inline-flex;
+}
+
+.link-characters {
+    margin: 5px;
+}
+
+.div-characters {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    width: auto;
 }
 
 .main {
@@ -27,6 +35,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
 }
 
 .main-image:hover {
